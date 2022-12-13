@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buku_tamus",
+  "info": {
+    "singularName": "buku-tamu",
+    "pluralName": "buku-tamus",
+    "displayName": "buku_tamu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namatamu": {
+      "type": "string"
+    },
+    "tanggal": {
+      "type": "date"
+    },
+    "alamat": {
+      "type": "richtext"
+    },
+    "asallembaga": {
+      "type": "enumeration",
+      "enum": [
+        "Alumni",
+        "Dinas",
+        "Sekolah",
+        "Umum"
+      ]
+    },
+    "keperluan": {
+      "type": "text"
+    }
+  }
+}
